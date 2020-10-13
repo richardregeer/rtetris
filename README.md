@@ -1,4 +1,4 @@
-# Rtetris
+# RTetris
 RTetris is a Tetris clone by Richard Regeer.
 This is the first game I have developed in C++. I created this project to learn C++ back in 1999.
 
@@ -12,40 +12,24 @@ The game can still be played using [DOSBox](https://www.dosbox.com/)
 ## Running the game
 The game requires DOS to run. To be able to run it on a modern operating system, [DOSBox](https://www.dosbox.com/) can be used.
 
-### Linux
 For the examples I will use `~/games/rtetris` as installation directory.
 
-#### Download the release
+### Download the release (Mac OS X / Linux)
 ```bash
-wget https://github.com/richardregeer/rtetris/archive/master.zip
-unzip master.zip -d ~/games/rtetris
-rm master.zip
-cd ~/games/rtetris
+wget https://github.com/richardregeer/rtetris/archive/2.0.2.zip -O rtetris.zip \
+    && unzip rtetris.zip -d ~/games \
+    && mv ~/games/rtetris-2.0.2/ ~/games/rtetris \
+    && rm rtetris.zip
 ```
 
-#### Install DOSBox
+### Install DOSBox
 **Ubuntu**
 
 ```bash
 sudo apt install dosbox
 ```
 
-#### Starting the game
-```
-~/games/rtetris/RTetris.sh
-```
-
-### Mac OS X
-#### Download the release
-```bash
-wget https://github.com/richardregeer/rtetris/archive/master.zip
-unzip master.zip -d ~/games/rtetris
-rm master.zip
-cd ~/games/rtetris
-```
-
-#### Install DOSBox
-**Homebrew**
+**Homebrew Mac OS-X**
 
 Make sure [homebrew](https://brew.sh/) is installed.
 ```bash
@@ -53,15 +37,13 @@ Make sure [homebrew](https://brew.sh/) is installed.
 ```
 
 **Download**
-Download [Dosbox](https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/DOSBox-0.74-3-3.dmg/download) and install it manually.
 
-#### Starting the game
+Download [Dosbox](https://www.dosbox.com/download.php?main=1) and install it manually.
+
+### Starting the game
 ```
 ~/games/rtetris/RTetris.sh
 ```
-
-### Windows 10
-Need to add this
 
 ## How to play
 ### Controls
