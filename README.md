@@ -9,6 +9,13 @@ I found the source code in my archive and thought it will be nice to share it an
 
 The game can still be played using [DOSBox](https://www.dosbox.com/)
 
+## Screenshots
+![Gameplay](screenshots/game.png)
+
+![Menu](screenshots/menu.png)
+
+![Highscores](screenshots/high-scores.png)
+
 ## Running the game
 The game requires DOS to run. To be able to run it on a modern operating system, [DOSBox](https://www.dosbox.com/) can be used.
 
